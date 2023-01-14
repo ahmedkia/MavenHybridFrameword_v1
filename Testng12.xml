@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Maven hybrid framework v1">
+	
+	
+	
+	
+	<test name = "Hybrid framework banking app test">
+		
+	   <parameter name = "browser" value = "chrome"/>
+	
+       <classes>
+			
+   <class name = "Maven_HybridFramework_v1_testCases.tc_loginTest_001"/>
+
+   <!--class name = "Maven_HybridFramework_v1_testCases.Tc_loginDDT_002"/-->
+		
+     
+		</classes>
+		
+	</test>
+	
+
+		
+	
+</suite>
